@@ -185,6 +185,9 @@ img{
 	color: #E10832;
 	background-color: transparent;
 }
+p{
+	text-indent: 10px;
+}
 /*Formulário*/
 fieldset{
 	border-radius: 5px;

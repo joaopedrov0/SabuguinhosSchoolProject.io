@@ -89,11 +89,13 @@ h1, h2, h3, h4, h5, h6{
 	display: inline-block;
 	border: none;
 	transition: background-color 1.0s, transform 0.5s;	/*Recurso beta*/
+	box-shadow: 50px;
 }
 .botao:hover, .botao:focus{
 	text-decoration: none;
 	background-color: #E10832;
 	transform: scale(1.1);	/*Recurso beta*/
+	box-shadow: 50px;
 }
 .pagina-atual{
 	background-color: azure;
@@ -188,6 +190,19 @@ img{
 p{
 	text-indent: 10px;
 }
+/*
+.altcontact{
+	display: inline-block;
+	align-items: center;
+	overflow: hidden;
+}
+.linkcontato{
+	padding: 10px 5px;
+	display: absolute;
+	align-items: center;
+	line-height: normal;
+}
+*/
 /*Formulário*/
 fieldset{
 	border-radius: 5px;
@@ -210,4 +225,58 @@ textarea{
 .campo{
 	margin: 15px;
 	text-align: right;
+}
+
+/*Produtos*/
+.produtos{
+	display: flex;
+	flex-direction: column;
+}
+.produto{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 15px;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+	border-left: transparent;
+	box-sizing: margin-box;
+}
+.produto:last-child{
+	border-bottom: none;
+}
+.localImagem{
+	margin: 5px;
+	max-width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+/*tabela*/
+
+table{
+  border: solid;
+  background-color: #740030;
+  color: #740030;
+  border-radius: 5px;
+  width: 100%;
+}
+tr{
+  border: solid;
+  color: #ffffff;
+  background-color: white;
+}
+th{
+  font-weight: 300;
+}
+.top{
+  color: white;
+  background-color: #740030;
+}
+.um{
+  background-color: #EF8780;
+}
+.zero{
+  background-color: #EB655C;
 }

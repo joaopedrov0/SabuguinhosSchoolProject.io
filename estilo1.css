@@ -126,7 +126,7 @@ nav ul li a{
 	text-decoration: none;
 	padding: 5px 10px;
 	border-radius: 3px;
-	transition: background-color 1s, color 1s;	/*Recurso beta*/
+	transition: background-color 0.5s, color 0.5s;	/*Recurso beta*/
 }
 nav ul li a:hover{
 	background-color: azure;
